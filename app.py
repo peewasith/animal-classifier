@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 from tensorflow.keras.models import model_from_json
 from tensorflow.keras.preprocessing import image
@@ -188,4 +187,4 @@ if uploaded_files:
             st.markdown(f"<h3 style='text-align: center; color: #4B0082;'>{predicted_name}</h3>", unsafe_allow_html=True)
             st.progress(confidence)  # st.progress รองรับ float 0-1
             st.caption(f"ความมั่นใจ: {confidence*100:.2f}%")
->>>>>>> e3dc8e5e1c34798e4162ad9da04d6511abc04e05
+
